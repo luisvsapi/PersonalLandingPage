@@ -1,0 +1,45 @@
+.titulo{
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.parte-izquierda{
+    width: 70%;
+    border-right: 2px solid gray;
+
+    .sub-titulo{
+        color: gray;
+    }
+}
+
+.parte-derecha{
+    width: 30%;
+
+    .sub-titulo{
+        color: gray;
+    }
+}
+
+.seccion{
+    width: 100%;
+    border-bottom: 2px solid gray;
+}
+
+.seccion-final{
+    width: 100%;
+}
+
+@media print {
+
+    .contenido {
+        font-size: 12px;
+    }
+    
+    .saltar-pagina{
+        page-break-after: always;
+    }
+
+    .ocultar-print{
+        display: none !important;
+    }
+}

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="es-EC" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="1278793175164088387" datatype="html">
+        <source>Datos personales</source>
+      </trans-unit>
+      <trans-unit id="1329125758221957426" datatype="html">
+        <source>Asistente de Investigación</source>
+      </trans-unit>
+      <trans-unit id="1946709634854202046" datatype="html">
+        <source>Ingeniero en Ciencias Computacionales</source>
+      </trans-unit>
+      <trans-unit id="195610771036160183" datatype="html">
+        <source> Proyecto de transferencias bancarias masiva en tecnologías de back como Python, Express, sftp Server, Docker, Redis y Oracle. </source>
+      </trans-unit>
+      <trans-unit id="2101620407236538312" datatype="html">
+        <source> Data Science con modelos de regresión. </source>
+      </trans-unit>
+      <trans-unit id="2696373174900391227" datatype="html">
+        <source> Español </source>
+      </trans-unit>
+      <trans-unit id="315658611853859176" datatype="html">
+        <source> Inglés </source>
+      </trans-unit>
+      <trans-unit id="3718302304914654810" datatype="html">
+        <source>Género</source>
+      </trans-unit>
+      <trans-unit id="3839418929735297411" datatype="html">
+        <source>Experiencia</source>
+      </trans-unit>
+      <trans-unit id="3999848727169010098" datatype="html">
+        <source>Referencias</source>
+      </trans-unit>
+      <trans-unit id="401844527823879251" datatype="html">
+        <source> Aplicación corporativa para manejo de sucursal nueva, usando tecnologías como Node JS, Angular, Express, Spring. Con interacción de ORM usando la base de datos Oracle. </source>
+      </trans-unit>
+      <trans-unit id="4197407645057718695" datatype="html">
+        <source>Improving Deep Neural Networks: HyperParameter Tuning, Regularization and Optimization</source>
+      </trans-unit>
+      <trans-unit id="466217776089853794" datatype="html">
+        <source>Certificados</source>
+      </trans-unit>
+      <trans-unit id="4813531069683475651" datatype="html">
+        <source>Enfocado en la mejora continua y de manera eficaz. Comprometido con el aprendizaje continuo de forma individual, por motivos de eficacia y eficiencia en los proyectos en los que participo.</source>
+      </trans-unit>
+      <trans-unit id="5607856333945729712" datatype="html">
+        <source> Volver </source>
+      </trans-unit>
+      <trans-unit id="5684753759706397084" datatype="html">
+        <source>Ingeniero Semi-Senior Backend</source>
+      </trans-unit>
+      <trans-unit id="5797087197643200257" datatype="html">
+        <source>Perfil</source>
+      </trans-unit>
+      <trans-unit id="5850642789812810713" datatype="html">
+        <source> Machine Learning con aprendizaje supervisado. </source>
+      </trans-unit>
+      <trans-unit id="5898814001174427098" datatype="html">
+        <source>Idiomas</source>
+      </trans-unit>
+      <trans-unit id="6040893046359771683" datatype="html">
+        <source>Estado Civil</source>
+      </trans-unit>
+      <trans-unit id="6290964777519018449" datatype="html">
+        <source>Mérito a la Investigación - Orientación a la Investigación Científica</source>
+      </trans-unit>
+      <trans-unit id="6435111406607293989" datatype="html">
+        <source>Hombre</source>
+      </trans-unit>
+      <trans-unit id="7264996848022431916" datatype="html">
+        <source>CS Engineer | Full Stack Web Developer | Machine Learning Enthusiast | Javascript | Python | NodeJS | Tensorflow</source>
+      </trans-unit>
+      <trans-unit id="7603484655482464904" datatype="html">
+        <source> Proyecto para el Centro de Investigación, Computacionales (CIDIS), sobre el reconocimiento de rostros humanos para robot interactuando con niños de un grupo especifico de edad y características medicas. </source>
+      </trans-unit>
+      <trans-unit id="7638379511146655348" datatype="html">
+        <source>Ingeniero FullStack</source>
+      </trans-unit>
+      <trans-unit id="7951202021267872849" datatype="html">
+        <source>Pasatiempos e intereses</source>
+      </trans-unit>
+      <trans-unit id="8025016720525572182" datatype="html">
+        <source>Formación</source>
+      </trans-unit>
+      <trans-unit id="8081375720501006339" datatype="html">
+        <source>Competencias</source>
+      </trans-unit>
+      <trans-unit id="8121035428584624121" datatype="html">
+        <source>Structuring Machine Learning Projects</source>
+      </trans-unit>
+      <trans-unit id="8345647791701755229" datatype="html">
+        <source> Luis Andres Villamar Saltos</source>
+      </trans-unit>
+      <trans-unit id="84853798182400280" datatype="html">
+        <source>Ingeniería en Ciencias Computacionales</source>
+      </trans-unit>
+      <trans-unit id="8603430445202353352" datatype="html">
+        <source>Neural Networks and Deep Learning</source>
+      </trans-unit>
+      <trans-unit id="9200273688115663668" datatype="html">
+        <source> Desarrollo y refactorización de aplicación de pagos en línea, con funcionalidades adicionales, en navegador para la unidad educativa ANAI. Herramientas: React, Spring, Javascript, JSX, Node JS, ORM para SQL. </source>
+      </trans-unit>
+      <trans-unit id="7928049719559815664" datatype="html">
+        <source>Soltero</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
