@@ -3,3 +3,10 @@ h1.name{
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
 }
+
+figure{
+    //Para que el canvas no se sobreponga a la imagen
+    z-index: 1;
+}
+
+//.particles-js-canvas-el estos estilos estan en el archivo particles.js por la linea 1510
