@@ -1507,11 +1507,13 @@ var pJS = function(tag_id, params){
     canvas_el.className = pJS_canvas_class;
   
     /* set size canvas */
+    height_target_div = document.getElementById("home-div")
     canvas_el.style.width = "100%";
-    canvas_el.style.height = "70%";
+    canvas_el.style.height = height_target_div.offsetHeight + "px";
     canvas_el.style.position = "absolute";
     canvas_el.style.top = "7%";
-    canvas_el.style.zIndex = "auto"
+    canvas_el.style.zIndex = "auto";
+    canvas_el.style.boxSizing = "border-box";
   
     /* append canvas */
     var canvas = document.getElementById(tag_id).appendChild(canvas_el);
