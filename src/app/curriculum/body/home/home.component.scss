@@ -4,6 +4,11 @@ h1.name{
     font-family: 'Times New Roman', Times, serif;
 }
 
+h2{
+    color: #08d665;
+    font-weight: bold;
+}
+
 figure{
     //Para que el canvas no se sobreponga a la imagen
     z-index: 1;
