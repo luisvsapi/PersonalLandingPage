@@ -197,6 +197,9 @@
       <trans-unit id="8686070454623854861" datatype="html">
         <source>Poseo conocimientos en Docker y servicios en la nube. Puedo contenerizar aplicaciones de manera eficiente, gestionar implementaciones y aprovechar plataformas en la nube como AWS y Azure para infraestructuras escalables y confiables.</source>
       </trans-unit>
+      <trans-unit id="8536229092513363026" datatype="html">
+        <source>Convolutional Neural Networks</source>
+      </trans-unit>
     </body>
   </file>
 </xliff>

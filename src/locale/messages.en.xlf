@@ -262,6 +262,10 @@
         <source>Poseo conocimientos en Docker y servicios en la nube. Puedo contenerizar aplicaciones de manera eficiente, gestionar implementaciones y aprovechar plataformas en la nube como AWS y Azure para infraestructuras escalables y confiables.</source>
         <target state="new">I have knowledge in Docker and cloud services. I can efficiently containerize applications, manage deployments, and leverage cloud platforms like AWS and Azure for scalable and reliable infrastructure.</target>
       </trans-unit>
+      <trans-unit id="8536229092513363026" datatype="html">
+        <source>Convolutional Neural Networks</source>
+        <target state="new">Convolutional Neural Networks</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
