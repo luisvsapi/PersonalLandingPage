@@ -8,11 +8,13 @@ import { ViewportScroller } from '@angular/common';
 })
 export class HeaderComponent implements OnInit {
 
+  actualLanguage = "es";
+
   constructor(private scroller: ViewportScroller) { 
   }
-
+  
   ngOnInit(): void {
-    
+    this.actualLanguage = "es";
   }
 
   moverHaciaSeccion(event:Event, numeroSeccion:number) {
@@ -35,6 +37,10 @@ export class HeaderComponent implements OnInit {
         this.scroller.scrollToAnchor("curriculum-contact");
         break;
     }
+  }
+
+  cambiarLenguaje(language:string){
+    this.actualLanguage = language;
   }
 
 }

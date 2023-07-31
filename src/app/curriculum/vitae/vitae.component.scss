@@ -3,6 +3,10 @@
     font-weight: 550;
 }
 
+ul.nav *{
+    cursor: pointer !important;
+}
+
 .parte-izquierda{
     width: 70%;
     border-right: 2px solid gray;
