@@ -1,14 +1,15 @@
 <header class="d-flex align-items-center text-white font-weight-bold">
     <div class="container px-0">
         <div class="d-flex flex-row flex-wrap align-items-center justify-content-center">
-            <div class="dropdown col-2 mb-2">
-                <button class="btn dropdown-toggle" type="button" data-toogle="dropdown" id="dropdownLanguage" aria-haspopup="true" aria-expanded="false">
+            <div class="dropdown mb-2">
+                <button class="btn dropdown-toggle text-white" type="button" id="dropdownLanguage">
                     {{ actualLanguage }}
                 </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownLanguage">
-                    <a class="dropdown-item" href="#">Espanol</a>
-                    <a class="dropdown-item" href="#">Ingles</a>
-                </div>
+                <ul class="dropdown-menu">
+                    <li *ngFor="let lang of listLanguage; let i = index">
+                        <a class="dropdown-item" (click)="cambiarLenguaje(i)">{{lang.language}}</a>
+                    </li>
+                </ul>
             </div>
             <ul class="nav col-10 mb-2 align-items-center justify-content-end mb-md-0">
                 <li>

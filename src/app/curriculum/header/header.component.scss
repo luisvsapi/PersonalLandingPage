@@ -15,3 +15,25 @@ header{
 a:hover{
     color: #08d665 !important;
 }
+
+.dropdown-menu{
+    display: none;
+    background-color: #000 !important;
+}
+
+.dropdown-menu *{
+    color: #fff;
+}
+
+.dropdown:hover .dropdown-toggle{
+    background-color: #08d665;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.dropdown-item:hover{
+    color: #08d660 !important;
+    background-color: #000 !important;
+}

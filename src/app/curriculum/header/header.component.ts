@@ -8,13 +8,23 @@ import { ViewportScroller } from '@angular/common';
 })
 export class HeaderComponent implements OnInit {
 
+  listLanguage = [
+    {
+      'code': 0,
+      'language': "Español"
+    },
+    {
+      'code': 1,
+      'language': "English"
+    }
+  ];
   actualLanguage = "es";
 
   constructor(private scroller: ViewportScroller) { 
   }
   
   ngOnInit(): void {
-    this.actualLanguage = "es";
+    this.actualLanguage = this.listLanguage[0].language;
   }
 
   moverHaciaSeccion(event:Event, numeroSeccion:number) {
@@ -39,8 +49,8 @@ export class HeaderComponent implements OnInit {
     }
   }
 
-  cambiarLenguaje(language:string){
-    this.actualLanguage = language;
+  cambiarLenguaje(languageIndex: number){
+    this.actualLanguage = this.listLanguage[languageIndex].language;
   }
 
 }
