@@ -33,3 +33,6 @@ Tienes instalado un paquete adicional al internacionalizador de angular que es p
 ng extract-i18n --output-path src/locale --format=xliff
 ng serve
 ng serve --configuration=en
+
+## Comandos para produccion
+ng build --configuration production --localize

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ViewportScroller } from '@angular/common';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'curriculum-header',
@@ -10,21 +11,27 @@ export class HeaderComponent implements OnInit {
 
   listLanguage = [
     {
-      'code': 0,
+      'code': 'es',
       'language': "Español"
     },
     {
-      'code': 1,
+      'code': 'en',
       'language': "English"
     }
   ];
-  actualLanguage = "es";
 
-  constructor(private scroller: ViewportScroller) { 
+  actualLanguage:string = "es";
+
+  constructor(
+    private scroller: ViewportScroller,
+    private router: Router
+  ) { 
   }
   
   ngOnInit(): void {
-    this.actualLanguage = this.listLanguage[0].language;
+    let code = window.location.pathname.split('/')[1] != "" ? window.location.pathname.split('/')[1] : "es";
+    let languageSelected = this.listLanguage.find(l => l.code == code) 
+    this.actualLanguage = languageSelected != undefined ? languageSelected.language : "es";
   }
 
   moverHaciaSeccion(event:Event, numeroSeccion:number) {
@@ -51,6 +58,7 @@ export class HeaderComponent implements OnInit {
 
   cambiarLenguaje(languageIndex: number){
     this.actualLanguage = this.listLanguage[languageIndex].language;
+    window.location.href = "../" + this.listLanguage[languageIndex].code;
   }
 
 }

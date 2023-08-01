@@ -72,6 +72,9 @@
               "sourceMap": true,
               "namedChunks": true
             },
+            "es": {
+              "localize": ["es-EC"]
+            },
             "en": {
               "localize": ["en-US"]
             }
@@ -86,6 +89,9 @@
             },
             "en": {
               "browserTarget": "curriculum:build:en"
+            },
+            "es": {
+              "browserTarget": "curriculum:build:es"
             },
             "development": {
               "browserTarget": "curriculum:build:development"

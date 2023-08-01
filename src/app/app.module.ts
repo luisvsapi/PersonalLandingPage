@@ -12,7 +12,7 @@ import { ContactComponent } from './curriculum/body/contact/contact.component';
 import { CurriculumComponent } from './curriculum/curriculum.component';
 import { FooterComponent } from './curriculum/footer/footer.component';
 import { VitaeComponent } from './curriculum/vitae/vitae.component';
-import { ExampleComponent } from './example/example.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +26,7 @@ import { ExampleComponent } from './example/example.component';
     ContactComponent,
     CurriculumComponent,
     FooterComponent,
-    ExampleComponent
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,

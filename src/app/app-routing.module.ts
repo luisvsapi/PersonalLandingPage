@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CurriculumComponent } from './curriculum/curriculum.component';
 import { VitaeComponent } from './curriculum/vitae/vitae.component';
-import { ExampleComponent } from './example/example.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 const routes: Routes = [
   { 
@@ -13,10 +13,10 @@ const routes: Routes = [
     path: 'curriculum', 
     component: VitaeComponent
   },
-  { 
-    path: 'example', 
-    component: ExampleComponent
-  },
+  {
+    path: '**',
+    component: NotFoundComponent
+  }
 ];
 
 @NgModule({
