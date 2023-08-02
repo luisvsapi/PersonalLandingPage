@@ -10,10 +10,6 @@
         <source>Asistente de Investigación</source>
         <target>Research Assistant</target>
       </trans-unit>
-      <trans-unit id="1946709634854202046" datatype="html">
-        <source>Ingeniero en Ciencias Computacionales</source>
-        <target>Computer Science Engineering</target>
-      </trans-unit>
       <trans-unit id="195610771036160183" datatype="html">
         <source> Proyecto de transferencias bancarias masiva en tecnologías de back como Python, Express, sftp Server, Docker, Redis y Oracle. </source>
         <target> Massice bank transfer project with back-end tecnologies such as Python, Express, sftp Server, Docker, Redis y Oracle. </target>
@@ -265,6 +261,10 @@
       <trans-unit id="8536229092513363026" datatype="html">
         <source>Convolutional Neural Networks</source>
         <target state="new">Convolutional Neural Networks</target>
+      </trans-unit>
+      <trans-unit id="4899938761203142755" datatype="html">
+        <source> FullStack Web Engineer</source>
+        <target state="new"> FullStack Web Engineer</target>
       </trans-unit>
     </body>
   </file>

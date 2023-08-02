@@ -8,9 +8,6 @@
       <trans-unit id="1329125758221957426" datatype="html">
         <source>Asistente de Investigación</source>
       </trans-unit>
-      <trans-unit id="1946709634854202046" datatype="html">
-        <source>Ingeniero en Ciencias Computacionales</source>
-      </trans-unit>
       <trans-unit id="195610771036160183" datatype="html">
         <source> Proyecto de transferencias bancarias masiva en tecnologías de back como Python, Express, sftp Server, Docker, Redis y Oracle. </source>
       </trans-unit>
@@ -199,6 +196,9 @@
       </trans-unit>
       <trans-unit id="8536229092513363026" datatype="html">
         <source>Convolutional Neural Networks</source>
+      </trans-unit>
+      <trans-unit id="4899938761203142755" datatype="html">
+        <source> FullStack Web Engineer</source>
       </trans-unit>
     </body>
   </file>
