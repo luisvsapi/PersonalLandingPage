@@ -36,3 +36,6 @@ ng serve --configuration=en
 
 ## Comandos para produccion
 ng build --configuration production --localize
+
+## Configuracion para assets debido a relatividad de direccion
+Sacar carpeta assets al root de la carpeta dist para publicarlo con Express JS

@@ -11,16 +11,16 @@ export class HeaderComponent implements OnInit {
 
   listLanguage = [
     {
-      'code': 'es',
+      'code': 'es-EC',
       'language': "Español"
     },
     {
-      'code': 'en',
+      'code': 'en-US',
       'language': "English"
     }
   ];
 
-  actualLanguage:string = "es";
+  actualLanguage:string = "Español";
 
   constructor(
     private scroller: ViewportScroller,
@@ -29,9 +29,9 @@ export class HeaderComponent implements OnInit {
   }
   
   ngOnInit(): void {
-    let code = window.location.pathname.split('/')[1] != "" ? window.location.pathname.split('/')[1] : "es";
+    let code = window.location.pathname.split('/')[1] != "" ? window.location.pathname.split('/')[1] : "es-EC";
     let languageSelected = this.listLanguage.find(l => l.code == code) 
-    this.actualLanguage = languageSelected != undefined ? languageSelected.language : "es";
+    this.actualLanguage = languageSelected != undefined ? languageSelected.language : "es-EC";
   }
 
   moverHaciaSeccion(event:Event, numeroSeccion:number) {
