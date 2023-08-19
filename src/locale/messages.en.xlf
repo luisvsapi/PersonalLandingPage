@@ -266,6 +266,10 @@
         <source> FullStack Web Engineer</source>
         <target state="new"> FullStack Web Engineer</target>
       </trans-unit>
+      <trans-unit id="5760012664057904944" datatype="html">
+        <source> Proyecto de desarrollo para entidad bancaria, con tecnologias utilizadas como Java, Oracle entre mas. </source>
+        <target state="new"> Development Project for bank entity, with technologies such as Java, Oracle and more. </target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

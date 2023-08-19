@@ -200,6 +200,9 @@
       <trans-unit id="4899938761203142755" datatype="html">
         <source> FullStack Web Engineer</source>
       </trans-unit>
+      <trans-unit id="5760012664057904944" datatype="html">
+        <source> Proyecto de desarrollo para entidad bancaria, con tecnologias utilizadas como Java, Oracle entre mas. </source>
+      </trans-unit>
     </body>
   </file>
 </xliff>
